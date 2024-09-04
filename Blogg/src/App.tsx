@@ -26,7 +26,7 @@ function App() {
         </p>
       </div>
       <p className="font-bold text-violet-500">
-        Tailwind instalado
+        Test Cambio de directorio
       </p>
     </>
   )
