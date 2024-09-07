@@ -1,7 +1,7 @@
 
 function Contact() {
   return (
-    <div className="font-bold text-red-800">Mas nancy</div>
+    <div className="flex flex-1 bg-violet-600 font-bold text-black items-center justify-center">CONTACT</div>
   )
 }
 

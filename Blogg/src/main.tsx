@@ -6,35 +6,35 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './pages/home/index.tsx';
-import About from './pages/about/index.tsx';
-import Blogs from './pages/blogs/index.tsx';
-import Contact from './pages/contact/index.tsx';
-import Services from './pages/services/index.tsx';
+import Home from './pages/home/index.ts';
+import About from './pages/about/index.ts';
+import Blogs from './pages/blogs/index.ts';
+import Contact from './pages/contact/index.ts';
+import Services from './pages/services/index.ts';
 
 const router = createBrowserRouter([
   {
-    path: "/TestBlog",
+    path: "/",
     element: <App/>,
     children:[
       {
-        path:"/TestBlog",
+        path:"/",
         element: <Home/>
       },
       {
-        path:"/TestBlog/blogs",
+        path:"/blogs",
         element: <Blogs/>
       },
       {
-        path:"/TestBlog/about",
+        path:"/about",
         element: <About/>
       },
       {
-        path:"/TestBlog/contact",
+        path:"/contact",
         element: <Contact/>
       },
       {
-        path:"/TestBlog/services",
+        path:"/services",
         element: <Services/>
       },
     ]

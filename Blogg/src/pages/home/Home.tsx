@@ -1,7 +1,7 @@
 
 function Home() {
   return (
-    <div className="font-bold text-violet-800">HOME y tal</div>
+    <div className="flex flex-1 bg-sky-600 font-bold text-white items-center justify-center">HOME</div>
   )
 }
 

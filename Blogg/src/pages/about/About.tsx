@@ -1,7 +1,7 @@
 
 function About() {
   return (
-    <div className="font-bold text-orange-800">About y tal</div>
+    <div className="flex flex-1 bg-green-600 font-bold text-orange-800 items-center justify-center">ABOUT</div>
   )
 }
 
